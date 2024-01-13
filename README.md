@@ -27,21 +27,28 @@ portfolio website
 
 <section><h2>How To Use</h2>
 In order to run this project you need:
+<ul>
+<li>Visual Studio Code</li>
+<li>Git Bash</li>
+</ul>
 
-Visual Studio Code
-Git Bash
 
 Setup
 
 Clone this repository to your desired folder:
-- **cd your-folder**
-- **git clone: https://github.com/edwardjay2/ed-folio.git
+<ul>
+<li>cd your-folder</li>
+<li>git clone: https://github.com/edwardjay2/ed-folio.git</li>
+</ul>
+
 
 
 </section>
 
 <section><h2>Author</h2>
 <h2>Nkwuzor Edward Nnaemeka</h2>
-- GitHub: [@edwardjay2](https://github.com/edwardjay2)
-- LinkedIn: [edward-nkwuzor](https://www.linkedin.com/in/edward-nkwuzor-19a5362a5/)
+<ul>
+<li>GitHub: [@edwardjay2](https://github.com/edwardjay2)</li>
+<li>LinkedIn: [edward-nkwuzor](https://www.linkedin.com/in/edward-nkwuzor-19a5362a5/)</li>
+</ul>
 </section>
