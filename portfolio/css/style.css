@@ -1,0 +1,245 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: rgb(172, 170, 170);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: rgb(24, 157, 218);
+}
+.navbar .navbar-brand{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background: linear-gradient(rgba(7, 7, 7, 0.5),rgba(2, 2, 2, 0.5)),
+    url("../img/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60vh;
+}
+p{
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+}
+.about{
+    background-color: black;
+}
+.btn {
+    background-color: rgb(24, 157, 218);
+    width: 120px;
+    padding:10px;
+    height: 45px;
+    border-radius: 0;
+    color: whitesmoke;
+}
+.features {
+    background-color: black;
+}
+.cad {
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+}
+.cad:hover{
+    border: 1px solid rgb(24, 157, 218);
+    
+}
+.skills{
+    background-color: black;
+
+}
+.skil {
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+    margin: 15px;
+    padding: 5px;
+}
+.skil:hover{
+    border: 1px solid rgb(24, 157, 218);
+}
+.services{
+    background-color: black;
+    
+
+}
+.serve {
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+    margin: 15px;
+    padding: 15px;
+    
+}
+.serve:hover{
+    border: 1px solid rgb(24, 157, 218);
+}
+i {
+    background-color: rgb(99, 97, 97);
+    color: white;
+    font-size: 60px;
+    margin-top: 10px;
+    padding: 10px;
+}
+i:hover{
+    background-color: rgb(24, 157, 218);
+}
+#reviews {
+    background: linear-gradient(
+        -90deg,
+        rgba(0, 5, 8, 1.0),
+        rgba(0, 3, 5, 1.0)
+      ),
+      url("../img/team-5.jpg"), #123558;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .review {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    margin: 15px;
+    max-width: 768px;
+    margin: auto;
+  }
+  .review img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 100px;
+    margin: auto;
+  }
+  .review .bxs-quote-alt-left {
+    font-size: 120px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0.1;
+  }
+  .review h5 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    color: #fff;
+  }
+  .review h3 {
+    margin: 26px 0;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  .review small {
+    color: var(--brand);
+  }
+.stars {
+    color:  rgb(24, 157, 218);
+    background-color:none;
+  }
+  .contact{
+    background-color: black;
+    
+
+}
+.form{
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+.form:hover{
+    border: 1px solid rgb(24, 157, 218);
+}
+#typewriter-text {
+    overflow: hidden; /* Ensures the text is initially hidden */
+    border-right: 1px solid #000; /* Cursor effect */
+}
+.border-custom {
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+    margin: 0px;
+    
+}
+.border-custom:hover {
+    border: 1px solid rgb(24, 157, 218);
+    
+}
+.footer {
+    background-color: #000;
+    padding: 45px;
+
+  
+    
+}
+.roll:hover{
+    border: 1px solid rgb(24, 157, 218);
+}
+.last {
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+
+}
+.roll {
+    border-radius: 0;
+    border: 1px solid rgb(85, 84, 84);
+    padding: 30px;
+}
+.end {
+    padding: 20px;
+}
+.end:hover {
+    border: 1px solid rgb(24, 157, 218);
+}
+
+a{
+    color: rgb(143, 140, 140);
+}
+section.toTop #toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /* z-index: 99; */
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100px;
+    line-height: 0;
+  }
+  /* .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+  }
+  .revael.active{
+    transform: translateY(0px);
+    opacity: 1;
+  } */
